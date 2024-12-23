@@ -73,7 +73,7 @@ private async void Button_Click(object sender, RoutedEventArgs e)
   } 
  ```
 
-**Note:** By default, the chart background is transparent in both light and dark themes. You can customize this background by setting the **Background** property on the chart if needed. The exported image will have a transparent background unless you explicitly set it to a color.
+**Note:** The Chart background is transparent. In JPEG format, RenderTargetBitmap converts it to a black background.
 
 **Chart output**
  
