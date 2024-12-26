@@ -73,7 +73,7 @@ private async void Button_Click(object sender, RoutedEventArgs e)
   } 
  ```
 
-**Note:** The Chart background is transparent. In JPEG format, RenderTargetBitmap converts it to a black background.
+**Note:** By default, the chart background is transparent. When using JPEG format, RenderTargetBitmap converts the transparent background to black. To resolve this, set the chart’s BackgroundColor to white or any preferred color.
 
 **Chart output**
  
@@ -83,16 +83,6 @@ private async void Button_Click(object sender, RoutedEventArgs e)
 
  ![chart.png](https://support.syncfusion.com/kb/agent/attachment/article/18644/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM0MjMyIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.VhSO304zS7VSvBDSySJWOBxdySgRK0LWuAdmx3Vl4No)
 
-### Github
-For a more detailed implementation and to view the sample demo, refer to the [Export Chart View as Image GitHub sample.](https://github.com/SyncfusionExamples/How-to-Export-Chart-as-Image-in-WinUI-Chart)
-
-### Conclusion
-
-I hope you enjoyed learning about how to Export Chart as Image in WinUI Chart.
-
-You can refer to our [WinUI charts feature tour page](https://www.syncfusion.com/winui-controls/cartesian-charts) to know about its other groundbreaking feature representations and [documentation](https://help.syncfusion.com/winui/charts/getting-started), and how to quickly get started for configuration specifications.
-
-For current customers, you can check out our components from the [License and Downloads page](https://www.syncfusion.com/sales/teamlicense). If you are new to Syncfusion, you can try our 30-day [free trial](https://www.syncfusion.com/account/manage-trials/downloads) to check out our other controls.
-
-If you have any queries or require clarifications, please let us know in the comments section below. You can also contact us through our [support forums](https://www.syncfusion.com/forums/), [Display-Trac](https://support.syncfusion.com/create), or [feedback portal](https://www.syncfusion.com/feedback/winui?control=sfcartesianchart). We are always happy to assist you!
+### KB link 
+For a more detailed, refer to the [Export Chart View as Image KB.](https://support.syncfusion.com/agent/kb/18644)
 
