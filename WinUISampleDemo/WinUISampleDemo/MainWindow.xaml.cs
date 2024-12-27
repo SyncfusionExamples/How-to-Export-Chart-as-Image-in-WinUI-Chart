@@ -39,7 +39,7 @@ namespace WinUISampleDemo
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            await SaveAsImageAsync(Chart, "chart.jpeg");
+            await SaveAsImageAsync(Chart, "chart.png");
         }
 
         private async Task SaveAsImageAsync(SfCartesianChart chart, string fileName)
