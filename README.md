@@ -84,5 +84,5 @@ private async void Button_Click(object sender, RoutedEventArgs e)
  ![chart.png](https://support.syncfusion.com/kb/agent/attachment/article/18644/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM0MjMyIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.VhSO304zS7VSvBDSySJWOBxdySgRK0LWuAdmx3Vl4No)
 
 ### KB link 
-For a more detailed, refer to the [Export Chart View as Image KB.](https://support.syncfusion.com/agent/kb/18644)
+For a more detailed, refer to the [Export Chart View as Image KB.](https://support.syncfusion.com/kb/article/18644/how-to-export-chart-as-image-in-winui-chart-sfcartesianchart)
 
