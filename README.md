@@ -1,6 +1,27 @@
 # How to Export Chart as Image in WinUI Chart
 This article provides a detailed walkthrough on how to export a [WinUI Cartesian Chart](https://www.syncfusion.com/winui-controls/cartesian-charts) as an image. You can export the chart view in your desired file format, with supported formats being **JPEG** and **PNG.**
 
+The Syncfusion WinUI Chart control supports exporting rendered charts to image formats, enabling developers to preserve visual data for reporting, sharing, or archival purposes.
+
+## Overview
+
+The chart export functionality is exposed via the ExportToImage method in the SfCartesianChart and SfCircularChart classes. This method allows you to capture the current visual state of the chart and save it to a file or stream in various image formats.
+
+## Supported Image Formats
+You can export charts to the following formats:
+- PNG (lossless, widely supported)
+- JPEG (compressed, suitable for web)
+
+## Use Cases
+
+- Business Reporting: Export charts to image files for embedding in PDF or Word documents used in financial or operational reports.
+- Data Sharing: Share chart visuals with stakeholders via email, chat, or collaboration platforms without requiring access to the application.
+- Archival and Compliance: Save chart snapshots as part of audit trails or historical data records for regulatory compliance.
+- Presentation Materials: Include exported chart images in PowerPoint slides or dashboards for meetings and presentations.
+- Offline Access: Provide users with downloadable chart images for viewing when internet or application access is unavailable.
+- Documentation and Tutorials: Use chart images in technical documentation, user guides, or training materials to illustrate data insights.
+- Social Media and Marketing: Share chart visuals on social platforms to highlight trends, performance metrics, or product analytics.
+
 ### Initialize SfCartesianChart:
 
 Set up the **SfCartesianChart** following the [ Syncfusion WinUI Cartesian Chart documentation.](https://help.syncfusion.com/winui/cartesian-charts/getting-started)
@@ -82,6 +103,10 @@ private async void Button_Click(object sender, RoutedEventArgs e)
 **Exported Chart Image**
 
  ![chart.png](https://support.syncfusion.com/kb/agent/attachment/article/18644/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM0MjMyIiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.VhSO304zS7VSvBDSySJWOBxdySgRK0LWuAdmx3Vl4No)
+
+## Troubleshooting
+
+If you are facing a path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
 
 ### KB link 
 For a more detailed, refer to the [Export Chart View as Image KB.](https://support.syncfusion.com/kb/article/18644/how-to-export-chart-as-image-in-winui-chart-sfcartesianchart)
