@@ -1,11 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Threading.Tasks;
-
-using Microsoft.UI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
@@ -14,9 +6,13 @@ using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Imaging;
 using Microsoft.UI.Xaml.Navigation;
-
 using Syncfusion.UI.Xaml.Charts;
-
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Graphics.Imaging;
@@ -34,7 +30,7 @@ namespace WinUISampleDemo
     {
         public MainWindow()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
@@ -63,7 +59,7 @@ namespace WinUISampleDemo
 
             // Choose image save path
             var folder = await Windows.Storage.StorageFolder.GetFolderFromPathAsync(@"D:\");
-            var picturesFolder = await folder.CreateFileAsync( fileName, Windows.Storage.CreationCollisionOption.ReplaceExisting);
+            var picturesFolder = await folder.CreateFileAsync(fileName, Windows.Storage.CreationCollisionOption.ReplaceExisting);
 
 
             // Encode the image
