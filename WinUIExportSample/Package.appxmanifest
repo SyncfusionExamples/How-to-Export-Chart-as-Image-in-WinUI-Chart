@@ -8,14 +8,14 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="f4818a9f-8570-4cef-992f-793d075ed152"
+    Name="ac72be13-9ee1-4cb9-b2a4-fee64fdcb32a"
     Publisher="CN=NitheeshkumarThangar"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="f4818a9f-8570-4cef-992f-793d075ed152" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="ac72be13-9ee1-4cb9-b2a4-fee64fdcb32a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>WinUISampleDemo</DisplayName>
+    <DisplayName>WinUIExportSample</DisplayName>
     <PublisherDisplayName>NitheeshkumarThangar</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -34,8 +34,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="WinUISampleDemo"
-        Description="WinUISampleDemo"
+        DisplayName="WinUIExportSample"
+        Description="WinUIExportSample"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
