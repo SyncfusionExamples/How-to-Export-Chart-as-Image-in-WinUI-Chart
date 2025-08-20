@@ -1,8 +1,6 @@
-﻿
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 
-namespace WinUISampleDemo
+namespace WinUIExportSample
 {
     public class ViewModel
     {
